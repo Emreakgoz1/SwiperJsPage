@@ -1,0 +1,68 @@
+.firstcomponent {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 43px 0px 21px;
+}
+.firstcomponent .leftcontent .toplefttext {
+  display: flex;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 125%;
+}
+.firstcomponent .leftcontent .blue {
+  color: #3061ef;
+}
+.firstcomponent .leftcontent .linearcolordiv {
+  width: 116px;
+  height: 10px;
+  background: linear-gradient(
+    270.2deg,
+    #3a47df 4.93%,
+    rgba(43, 62, 210, 0) 81.19%
+  );
+  margin-top: 10px;
+  margin-bottom: 33px;
+}
+.firstcomponent .rightcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.firstcomponent .rightcontent .righttoptext {
+  font-size: 21px;
+  line-height: 160%;
+}
+.firstcomponent .rightcontent .rightcentertext {
+  font-size: 18px;
+  line-height: 155%;
+}
+@media screen and (min-width: 925px) {
+  .firstcomponent {
+    margin-top: 137px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .firstcomponent .leftcontent {
+    margin-right: 100px;
+  }
+  .firstcomponent .leftcontent .toplefttext {
+    display: inline;
+    font-size: 45px;
+  }
+  .firstcomponent .leftcontent .linearcolordiv {
+    margin-top: 23px;
+    width: 156px;
+    height: 17px;
+  }
+  .firstcomponent .rightcontent .righttoptext {
+    font-size: 26px;
+    line-height: 150%;
+  }
+  .firstcomponent .rightcontent .rightcentertext {
+    font-size: 18px;
+    line-height: 155%;
+  }
+}
