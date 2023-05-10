@@ -1,0 +1,112 @@
+.parentcontainer {
+  background: #f0f6fb;
+}
+.thirdcomponent {
+  margin-top: 70px;
+  border-radius: 40px;
+  height: 100%;
+  width: 100%;
+}
+.thirdcomponent .topcontent {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 23px;
+  padding-top: 39px;
+  padding-left: 20px;
+}
+.thirdcomponent .frame {
+  border-radius: 10px;
+  padding: 10px 13px;
+  background: #091e5e;
+  width: fit-content;
+  height: fit-content;
+}
+.thirdcomponent .textneartoicon {
+  padding-top: 10px;
+  padding-left: 15px;
+  color: #091e5e;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 125%;
+}
+.thirdcomponent .textundertheicon {
+  color: #191a1c;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 22px 31px 48px 105px;
+}
+.thirdcomponentcard {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  background: #ffffff;
+  border-radius: 18px;
+  margin-bottom: 59px;
+}
+.thirdcomponent .thirdcomponentcard .circle {
+  margin: 40px 98px 31px 92px;
+  border-radius: 50%;
+}
+.thirdcomponent .thirdcomponentcard .circle.arrow {
+  background: #7c8cfb;
+  padding: 45px 53px 45px 59px;
+}
+.thirdcomponent .thirdcomponentcard .circle.calendar {
+  background: #ffd79a;
+  padding: 47px 48px 43px 49px;
+}
+.thirdcomponent .thirdcomponentcard .circle.pc {
+  background: #cedaf7;
+  padding: 51px 39px 39px 36px;
+}
+.thirdcomponent .thirdcomponentcard .circle.user {
+  background: #ff974d;
+  padding: 44px 38px 31px 37px;
+}
+.thirdcomponent .thirdcomponentcard .text {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 140%;
+}
+.thirdcomponent .thirdcomponentcard .secondtext {
+  font-size: 16px;
+  line-height: 125%;
+  margin: 15px 34px 42px 34px;
+}
+.thirdcomponent swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.thirdcomponent swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.thirdcomponent .mySwiperlarge {
+  display: none;
+}
+.thirdcomponent .mySwiperxl {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .thirdcomponent .mySwiper {
+    display: none;
+  }
+  .thirdcomponent .mySwiperlarge {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .thirdcomponent .mySwiperlarge {
+    display: none;
+  }
+
+  .thirdcomponent .mySwiperxl {
+    display: block;
+  }
+}

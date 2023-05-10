@@ -36,10 +36,10 @@ swiper-slide {
   justify-content: center;
   align-items: center;
 }
-swiper-slide:hover {
+.secondcomponent swiper-slide:hover {
   background: linear-gradient(301.6deg, #6790ff 8.1%, #2525cf 83.89%);
 }
-swiper-slide .text:hover {
+.secondcomponent swiper-slide .text:hover {
   color: white;
 }
 .mySwiperlarge {
