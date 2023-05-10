@@ -1,0 +1,72 @@
+.secondcomponent {
+  display: flex;
+  flex-direction: column;
+  margin-top: 49px;
+}
+.secondcomponent .topcontent {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 23px;
+}
+.secondcomponent .frame {
+  border-radius: 10px;
+  padding: 10px 13px;
+  background: #091e5e;
+  width: fit-content;
+  height: fit-content;
+}
+.secondcomponent .textneartoicon {
+  padding-top: 10px;
+  padding-left: 15px;
+  color: #091e5e;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 125%;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+swiper-slide:hover {
+  background: linear-gradient(301.6deg, #6790ff 8.1%, #2525cf 83.89%);
+}
+swiper-slide .text:hover {
+  color: white;
+}
+.mySwiperlarge {
+  display: none;
+}
+.mySwiperxl {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .mySwiper {
+    display: none;
+  }
+  .mySwiperlarge {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .secondcomponent .textneartoicon {
+    padding-top: 10px;
+    line-height: 110%;
+  }
+  .mySwiperlarge {
+    display: none;
+  }
+
+  .mySwiperxl {
+    display: block;
+  }
+}

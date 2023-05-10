@@ -1,0 +1,22 @@
+.mycard {
+  border-radius: 20px;
+  background: #f0f6fb;
+}
+.mycard .text {
+  color: black;
+  display: flex;
+  height: 240px;
+  align-items: center;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 125%;
+  padding: 0px 38px;
+}
+
+@media screen and (min-width: 1200px) {
+  .mycard .text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+  }
+}

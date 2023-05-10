@@ -2,7 +2,6 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  padding: 0px 43px 0px 21px;
 }
 .firstcomponent .leftcontent .toplefttext {
   display: flex;
@@ -38,7 +37,8 @@
   font-size: 18px;
   line-height: 155%;
 }
-@media screen and (min-width: 925px) {
+
+@media screen and (min-width: 1200px) {
   .firstcomponent {
     margin-top: 137px;
     flex-direction: row;
@@ -50,7 +50,7 @@
   }
   .firstcomponent .leftcontent .toplefttext {
     display: inline;
-    font-size: 45px;
+    font-size: 38px;
   }
   .firstcomponent .leftcontent .linearcolordiv {
     margin-top: 23px;
