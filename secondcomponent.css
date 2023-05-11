@@ -42,18 +42,18 @@ swiper-slide {
 .secondcomponent swiper-slide .text:hover {
   color: white;
 }
-.mySwiperlarge {
+.secondcomponent .mySwiperlarge {
   display: none;
 }
-.mySwiperxl {
+.secondcomponent .mySwiperxl {
   display: none;
 }
 
 @media screen and (min-width: 992px) {
-  .mySwiper {
+  .secondcomponent .mySwiper {
     display: none;
   }
-  .mySwiperlarge {
+  .secondcomponent .mySwiperlarge {
     display: block;
   }
 }
@@ -62,11 +62,11 @@ swiper-slide {
     padding-top: 10px;
     line-height: 110%;
   }
-  .mySwiperlarge {
+  .secondcomponent .mySwiperlarge {
     display: none;
   }
 
-  .mySwiperxl {
+  .secondcomponent .mySwiperxl {
     display: block;
   }
 }

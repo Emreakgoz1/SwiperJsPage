@@ -61,6 +61,12 @@
     rgba(255, 255, 255, 0) 92.02%
   );
 }
+.fourthcomponent .mySwiperlarge {
+  display: none;
+}
+.fourthcomponent .mySwiperxl {
+  display: none;
+}
 .fourthcomponent .campaigns {
   display: flex;
   align-self: center;
@@ -71,4 +77,26 @@
   border-color: white;
   background: #ff6f00;
   color: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .fourthcomponent .mySwiper {
+    display: none;
+  }
+  .fourthcomponent .mySwiperlarge {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .fourthcomponent .mySwiperlarge {
+    display: none;
+  }
+
+  .fourthcomponent .mySwiperxl {
+    display: block;
+  }
+  .swiper-container
+    .swiper-pagination-progressbar
+    .swiper-pagination-progressbar-fill {
+    background-color: red !important;
+  }
 }
