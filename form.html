@@ -56,7 +56,7 @@
                   <input
                     type="text"
                     placeholder="Username"
-                    class="inputframeattr"
+                    class="inputframeattr usernameinput"
                   />
                   <button class="inputbuttonattr clear">
                     <img src="formmaterials/X Icon (1).png" class="ximage" />
@@ -67,9 +67,9 @@
                 <span class="formtexts password">Password</span>
                 <div class="inputdiv">
                   <input
-                    type="text"
+                    type="password"
                     placeholder="Password"
-                    class="inputframeattr"
+                    class="inputframeattr passwordinput"
                   />
                   <button class="inputbuttonattr hide">
                     <img src="formmaterials/Hide Icon.png" class="hideimage" />
@@ -96,4 +96,22 @@
       </form>
     </div>
   </body>
+  <script>
+    const clearbutton = document.querySelector(".clear");
+    const hidebutton = document.querySelector(".hide");
+    clearbutton.addEventListener("click", (e) => {
+      e.preventDefault();
+      const input = document.querySelector(".usernameinput");
+      input.value = "";
+    });
+    hidebutton.addEventListener("click", (e) => {
+      e.preventDefault();
+      const input = document.querySelector(".passwordinput");
+      if (input.type == "text") {
+        input.type = "password";
+      } else {
+        input.type = "text";
+      }
+    });
+  </script>
 </html>
