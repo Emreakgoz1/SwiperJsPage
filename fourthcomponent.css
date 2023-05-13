@@ -39,6 +39,7 @@
   font-weight: 400;
   font-size: 21px;
   line-height: 125%;
+  text-align: start;
 }
 .fourthcomponent .maincomponent .text .boldertext {
   margin-top: 5px;
@@ -90,13 +91,7 @@
   .fourthcomponent .mySwiperlarge {
     display: none;
   }
-
   .fourthcomponent .mySwiperxl {
     display: block;
-  }
-  .swiper-container
-    .swiper-pagination-progressbar
-    .swiper-pagination-progressbar-fill {
-    background-color: red !important;
   }
 }

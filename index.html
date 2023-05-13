@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="thirdcomponent.css" />
     <link rel="stylesheet" href="fourthcomponent.css" />
     <link rel="stylesheet" href="card.css" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,6 +25,7 @@
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
     />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
     <style>
       *p {
         margin: 0;
@@ -34,7 +34,6 @@
     </style>
     <title>Document</title>
   </head>
-
   <body>
     <div class="container">
       <section class="firstcomponent">
@@ -354,8 +353,7 @@
         class="mySwiperxl"
         space-between="30"
         slides-per-view="4"
-        navigation="true"
-        pagination-type="progressbar"
+        scrollbar-hide="true"
       >
         <swiper-slide class="maincomponent"
           ><img src="image/woman.png" class="imageframe" />
@@ -413,8 +411,4 @@
       <button class="campaigns">TÜM KAMPANYALAR</button>
     </section>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"
-    defer
-  ></script>
 </html>

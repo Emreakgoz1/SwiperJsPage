@@ -1,0 +1,165 @@
+.secondcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topimage {
+  width: 100%;
+  height: 100%;
+}
+.topcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 74px;
+  width: 100%;
+  height: 100%;
+}
+.userimage {
+  width: 105px;
+  height: 105px;
+}
+.userimagecardframe {
+  position: absolute;
+  bottom: -55px;
+  width: 116px;
+  height: 116px;
+  background: #ededed;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.logintoacctext {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.lines {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.lines .lineright {
+  margin-left: 25px;
+}
+.middlecontent {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.maincontent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+.formtexts {
+  color: #808194;
+  font-size: 14px;
+  line-height: 17px;
+}
+.username {
+  margin-bottom: 10px;
+}
+.inputdiv {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+}
+.inputframeattr {
+  height: 44px;
+  border: 0.5px solid #808194;
+  border-radius: 8px;
+  width: 100%;
+}
+.inputbuttonattr {
+  top: 9px;
+  right: 5px;
+  position: absolute;
+  background-color: transparent;
+  border: none;
+}
+.ximage {
+  width: 16px;
+  height: 16px;
+}
+.formtexts.password {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.bottomcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.kvkkforgotpassworddiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 22px;
+}
+.bottomcontent .text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.loginbtn {
+  border: none;
+  background: #4f90f0;
+  padding: 13.5px 151.5px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 22px;
+}
+.bottomtexts {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+}
+.bottomtexts .textacc {
+  color: #2a2b2e;
+  font-size: 14px;
+  line-height: 17px;
+}
+.bottomtexts .textcreate {
+  padding-left: 6px;
+  color: #2a2b2e;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+@media screen and (min-width: 1200px) {
+  .mobileresponsivediv {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .mobileresponsivediv .userimagecardframe {
+    display: none;
+  }
+  .mobileresponsivediv .topcontent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 115px;
+  }
+  .mobileresponsivediv .topcontent .topimage {
+    width: 593px;
+    height: 764.79px;
+  }
+  .mobileresponsivediv .leftformcontent {
+    padding: 48px 24px;
+    background: #ffffff;
+    box-shadow: 4px 4px 30px rgba(84, 84, 84, 0.1);
+    border-radius: 8px;
+  }
+}
