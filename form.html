@@ -125,7 +125,6 @@
     const checkbox = document.querySelector(".kvkk");
     const submitbutton = document.querySelector(".loginbtn");
 
-    const failedmodal = document.querySelector("#failedmodal");
     const successmodal = document.querySelector("#successmodal");
 
     clearbutton.addEventListener("click", (e) => {
@@ -144,14 +143,21 @@
         e.preventDefault();
         if (usernameinput.value.trim() == '' || passwordinput.value.trim() == '' || !checkbox.checked) 
         {
-            failedmodal.showModal()
+           // submitbutton.setAttribute('data-bs-target', 'failedmodal');
             console.log("başarısız");
         }
         else {
-            successmodal.showModal()
+           // successmodal.showModal()
             console.log("başarılı");
         }
+        const jsonData = {
+        "username": usernameinput.value,
+        "password": passwordinput.value,
+        "kvkk": checkbox.checked ? "Checked" : "Not Checked"
+    };
+    console.log(JSON.stringify(jsonData));
     });
+    
 </script>
 
 </html>
